@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Common">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Dawnsbury Days\Data\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Dawnbury.Mods.Phoenix">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Dawnsbury Days\CustomMods\Dawnbury.Mods.Phoenix.dll</HintPath>
+    </Reference>
+    <Reference Include="Dawnsbury Days">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Dawnsbury Days\Data\Dawnsbury Days.dll</HintPath>
+    </Reference>
+    <Reference Include="Dawnsbury.Mods.DawnniExpanded">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Dawnsbury Days\CustomMods\Dawnsbury.Mods.DawnniExpanded.dll</HintPath>
+    </Reference>
+    <Reference Include="DawnsburyChampion">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Dawnsbury Days\CustomMods\DawnsburyChampion.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Dawnsbury Days\Data\MonoGame.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
